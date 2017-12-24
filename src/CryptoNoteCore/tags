@@ -1,0 +1,56 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+begin	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  const_iterator begin();$/;"	p	language:C++	class:SwappedMap
+begin	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> typename SwappedMap<Key, T>::const_iterator SwappedMap<Key, T>::begin() {$/;"	f	language:C++	class:SwappedMap
+clear	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  void clear();$/;"	p	language:C++	class:SwappedMap
+clear	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> void SwappedMap<Key, T>::clear() {$/;"	f	language:C++	class:SwappedMap
+close	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  void close();$/;"	p	language:C++	class:SwappedMap
+close	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> void SwappedMap<Key, T>::close() {$/;"	f	language:C++	class:SwappedMap
+const_iterator	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    const_iterator(SwappedMap* swappedMap, typename std::unordered_map<Key, Descriptor>::const_iterator descriptorsIterator) : m_swappedMap(swappedMap), m_descriptorsIterator(descriptorsIterator) {$/;"	f	language:C++	class:SwappedMap::const_iterator
+const_iterator	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  class const_iterator {$/;"	c	language:C++	class:SwappedMap
+count	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  size_t count(const Key& key) const;$/;"	p	language:C++	class:SwappedMap
+count	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> size_t SwappedMap<Key, T>::count(const Key& key) const {$/;"	f	language:C++	class:SwappedMap
+Descriptor	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  struct Descriptor {$/;"	s	language:C++	class:SwappedMap
+descriptorsCounter	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  uint64_t descriptorsCounter;$/;"	m	language:C++	class:SwappedMap
+end	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  const_iterator end();$/;"	p	language:C++	class:SwappedMap
+end	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> typename SwappedMap<Key, T>::const_iterator SwappedMap<Key, T>::end() {$/;"	f	language:C++	class:SwappedMap
+erase	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  void erase(const_iterator iterator);$/;"	p	language:C++	class:SwappedMap
+erase	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> void SwappedMap<Key, T>::erase(const_iterator iterator) {$/;"	f	language:C++	class:SwappedMap
+find	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  const_iterator find(const Key& key);$/;"	p	language:C++	class:SwappedMap
+find	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> typename SwappedMap<Key, T>::const_iterator SwappedMap<Key, T>::find(const Key& key) {$/;"	f	language:C++	class:SwappedMap
+index	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    uint64_t index;$/;"	m	language:C++	struct:SwappedMap::Descriptor
+innerIterator	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    typename std::unordered_map<Key, Descriptor>::const_iterator innerIterator() const {$/;"	f	language:C++	class:SwappedMap::const_iterator
+insert	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::pair<const_iterator, bool> insert(const std::pair<const Key, T>& value);$/;"	p	language:C++	class:SwappedMap
+insert	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> std::pair<typename SwappedMap<Key, T>::const_iterator, bool> SwappedMap<Key, T>::insert(const std::pair<const Key, T>& value) {$/;"	f	language:C++	class:SwappedMap
+iterator	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  typedef const_iterator iterator;$/;"	t	language:C++	class:SwappedMap
+load	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  const std::pair<const Key, T>* load(const Key& key, uint64_t offset);$/;"	p	language:C++	class:SwappedMap
+load	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> const std::pair<const Key, T>* SwappedMap<Key, T>::load(const Key& key, uint64_t offset) {$/;"	f	language:C++	class:SwappedMap
+m_cache	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::list<Key> m_cache;$/;"	m	language:C++	class:SwappedMap
+m_cacheHits	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  uint64_t m_cacheHits;$/;"	m	language:C++	class:SwappedMap
+m_cacheIterators	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::unordered_map<Key, typename std::list<Key>::iterator> m_cacheIterators;$/;"	m	language:C++	class:SwappedMap
+m_cacheMisses	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  uint64_t m_cacheMisses;$/;"	m	language:C++	class:SwappedMap
+m_descriptors	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::unordered_map<Key, Descriptor> m_descriptors;$/;"	m	language:C++	class:SwappedMap
+m_descriptorsIterator	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    typename std::unordered_map<Key, Descriptor>::const_iterator m_descriptorsIterator;$/;"	m	language:C++	class:SwappedMap::const_iterator
+m_indexesFile	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::fstream m_indexesFile;$/;"	m	language:C++	class:SwappedMap
+m_items	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::unordered_map<Key, T> m_items;$/;"	m	language:C++	class:SwappedMap
+m_itemsFile	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::fstream m_itemsFile;$/;"	m	language:C++	class:SwappedMap
+m_itemsFileSize	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  uint64_t m_itemsFileSize;$/;"	m	language:C++	class:SwappedMap
+m_poolSize	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  size_t m_poolSize;$/;"	m	language:C++	class:SwappedMap
+m_swappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    SwappedMap* m_swappedMap;$/;"	m	language:C++	class:SwappedMap::const_iterator
+offset	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    uint64_t offset;$/;"	m	language:C++	struct:SwappedMap::Descriptor
+open	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  bool open(const std::string& itemFileName, const std::string& indexFileName, size_t poolSize);$/;"	p	language:C++	class:SwappedMap
+open	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> bool SwappedMap<Key, T>::open(const std::string& itemFileName, const std::string& indexFileName, size_t poolSize) {$/;"	f	language:C++	class:SwappedMap
+operator !=	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    bool operator !=(const_iterator other) const {$/;"	f	language:C++	class:SwappedMap::const_iterator
+operator *	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    const std::pair<const Key, T>& operator*() const {$/;"	f	language:C++	class:SwappedMap::const_iterator
+operator ++	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    const_iterator& operator++() {$/;"	f	language:C++	class:SwappedMap::const_iterator
+operator ->	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    const std::pair<const Key, T>* operator->() const {$/;"	f	language:C++	class:SwappedMap::const_iterator
+operator ==	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^    bool operator ==(const_iterator other) const {$/;"	f	language:C++	class:SwappedMap::const_iterator
+prepare	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  std::pair<const Key, T>* prepare(const Key& key);$/;"	p	language:C++	class:SwappedMap
+prepare	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> std::pair<const Key, T>* SwappedMap<Key, T>::prepare(const Key& key) {$/;"	f	language:C++	class:SwappedMap
+size	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  uint64_t size() const;$/;"	p	language:C++	class:SwappedMap
+size	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> uint64_t SwappedMap<Key, T>::size() const {$/;"	f	language:C++	class:SwappedMap
+SwappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  SwappedMap();$/;"	p	language:C++	class:SwappedMap
+SwappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> class SwappedMap {$/;"	c	language:C++
+SwappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> SwappedMap<Key, T>::SwappedMap() {$/;"	f	language:C++	class:SwappedMap
+value_type	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  typedef typename std::pair<Key, T> value_type;$/;"	t	language:C++	class:SwappedMap
+~SwappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^  ~SwappedMap();$/;"	p	language:C++	class:SwappedMap
+~SwappedMap	/home/dmitry/work/ffscoin/src/CryptoNoteCore/SwappedMap.h	/^template<class Key, class T> SwappedMap<Key, T>::~SwappedMap() {$/;"	f	language:C++	class:SwappedMap

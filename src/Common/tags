@@ -1,0 +1,29 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+addr_checksum_size	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const size_t addr_checksum_size = 4;$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+alphabet	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const char alphabet[] = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+alphabet_size	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const size_t alphabet_size = sizeof(alphabet) - 1;$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+Base58	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^  namespace Base58$/;"	n	language:C++	namespace:Tools	file:
+decode	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^    bool decode(const std::string& enc, std::string& data)$/;"	f	language:C++	namespace:Tools::Base58
+decoded_block_sizes	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        decoded_block_sizes()$/;"	f	language:C++	struct:Tools::Base58::__anon1::decoded_block_sizes
+decoded_block_sizes	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      struct decoded_block_sizes$/;"	s	language:C++	namespace:Tools::Base58::__anon1	file:
+decode_addr	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^    bool decode_addr(std::string addr, uint64_t& tag, std::string& data)$/;"	f	language:C++	namespace:Tools::Base58
+decode_block	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      bool decode_block(const char* block, size_t size, char* res)$/;"	f	language:C++	namespace:Tools::Base58::__anon1
+encode	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^    std::string encode(const std::string& data)$/;"	f	language:C++	namespace:Tools::Base58
+encoded_block_sizes	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const size_t encoded_block_sizes[] = {0, 2, 3, 5, 6, 7, 9, 10, 11};$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+encode_addr	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^    std::string encode_addr(uint64_t tag, const std::string& data)$/;"	f	language:C++	namespace:Tools::Base58
+encode_block	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      void encode_block(const char* block, size_t size, char* res)$/;"	f	language:C++	namespace:Tools::Base58::__anon1
+full_block_size	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const size_t full_block_size = sizeof(encoded_block_sizes) \/ sizeof(encoded_block_sizes[0]) - 1;$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+full_encoded_block_size	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      const size_t full_encoded_block_size = encoded_block_sizes[full_block_size];$/;"	m	language:C++	namespace:Tools::Base58::__anon1	file:
+instance	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        static decoded_block_sizes instance;$/;"	m	language:C++	struct:Tools::Base58::__anon1::decoded_block_sizes	file:
+instance	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        static reverse_alphabet instance;$/;"	m	language:C++	struct:Tools::Base58::__anon1::reverse_alphabet	file:
+instance	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      decoded_block_sizes decoded_block_sizes::instance;$/;"	m	language:C++	class:Tools::Base58::__anon1::decoded_block_sizes	file:
+instance	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      reverse_alphabet reverse_alphabet::instance;$/;"	m	language:C++	class:Tools::Base58::__anon1::reverse_alphabet	file:
+m_data	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        std::vector<int8_t> m_data;$/;"	m	language:C++	struct:Tools::Base58::__anon1::reverse_alphabet	file:
+m_data	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        std::vector<int> m_data;$/;"	m	language:C++	struct:Tools::Base58::__anon1::decoded_block_sizes	file:
+operator ()	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        int operator()(char letter) const$/;"	f	language:C++	struct:Tools::Base58::__anon1::reverse_alphabet
+operator ()	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        int operator()(size_t encoded_block_size) const$/;"	f	language:C++	struct:Tools::Base58::__anon1::decoded_block_sizes
+reverse_alphabet	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^        reverse_alphabet()$/;"	f	language:C++	struct:Tools::Base58::__anon1::reverse_alphabet
+reverse_alphabet	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      struct reverse_alphabet$/;"	s	language:C++	namespace:Tools::Base58::__anon1	file:
+Tools	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^namespace Tools$/;"	n	language:C++	file:
+uint_64_to_8be	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      void uint_64_to_8be(uint64_t num, size_t size, uint8_t* data)$/;"	f	language:C++	namespace:Tools::Base58::__anon1
+uint_8be_to_64	/home/dmitry/work/ffscoin/src/Common/Base58.cpp	/^      uint64_t uint_8be_to_64(const uint8_t* data, size_t size)$/;"	f	language:C++	namespace:Tools::Base58::__anon1

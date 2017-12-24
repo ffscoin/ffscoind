@@ -1,0 +1,17 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+getPeerAddressAndPort	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^std::pair<Ipv4Address, uint16_t> TcpConnection::getPeerAddressAndPort() const {$/;"	f	language:C++	class:System::TcpConnection
+operator =	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^TcpConnection& TcpConnection::operator=(TcpConnection&& other) {$/;"	f	language:C++	class:System::TcpConnection
+operator =	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^Timer& Timer::operator=(Timer&& other) {$/;"	f	language:C++	class:System::Timer
+read	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^size_t TcpConnection::read(uint8_t* data, size_t size) {$/;"	f	language:C++	class:System::TcpConnection
+sleep	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^void Timer::sleep(std::chrono::nanoseconds duration) {$/;"	f	language:C++	class:System::Timer
+System	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^namespace System {$/;"	n	language:C++	file:
+System	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^namespace System {$/;"	n	language:C++	file:
+TcpConnection	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^TcpConnection::TcpConnection() : dispatcher(nullptr) {$/;"	f	language:C++	class:System::TcpConnection
+TcpConnection	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^TcpConnection::TcpConnection(Dispatcher& dispatcher, int socket) : dispatcher(&dispatcher), connection(socket) {$/;"	f	language:C++	class:System::TcpConnection
+TcpConnection	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^TcpConnection::TcpConnection(TcpConnection&& other) : dispatcher(other.dispatcher) {$/;"	f	language:C++	class:System::TcpConnection
+Timer	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^Timer::Timer() : dispatcher(nullptr) {$/;"	f	language:C++	class:System::Timer
+Timer	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^Timer::Timer(Dispatcher& dispatcher) : dispatcher(&dispatcher), context(nullptr), timer(-1) {$/;"	f	language:C++	class:System::Timer
+Timer	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^Timer::Timer(Timer&& other) : dispatcher(other.dispatcher) {$/;"	f	language:C++	class:System::Timer
+write	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^std::size_t TcpConnection::write(const uint8_t* data, size_t size) {$/;"	f	language:C++	class:System::TcpConnection
+~TcpConnection	/home/dmitry/work/ffscoin/src/Platform/Linux/System/TcpConnection.cpp	/^TcpConnection::~TcpConnection() {$/;"	f	language:C++	class:System::TcpConnection
+~Timer	/home/dmitry/work/ffscoin/src/Platform/Linux/System/Timer.cpp	/^Timer::~Timer() {$/;"	f	language:C++	class:System::Timer

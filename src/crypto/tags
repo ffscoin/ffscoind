@@ -1,0 +1,42 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+a	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^      EllipticCurvePoint a, b;$/;"	m	language:C++	struct:Crypto::rs_comm::__anon1	file:
+ab	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^    } ab[];$/;"	m	language:C++	struct:Crypto::rs_comm	typeref:struct:Crypto::rs_comm::__anon1	file:
+b	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^      EllipticCurvePoint a, b;$/;"	m	language:C++	struct:Crypto::rs_comm::__anon1	file:
+check_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::check_key(const PublicKey &key) {$/;"	f	language:C++	class:Crypto::crypto_ops
+check_ring_signature	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::check_ring_signature(const Hash &prefix_hash, const KeyImage &image,$/;"	f	language:C++	class:Crypto::crypto_ops
+check_signature	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::check_signature(const Hash &prefix_hash, const PublicKey &pub, const Signature &sig) {$/;"	f	language:C++	class:Crypto::crypto_ops
+cn_context	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^  cn_context::cn_context() {$/;"	f	language:C++	class:Crypto::cn_context
+cn_context	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^  cn_context::cn_context() {$/;"	f	language:C++	class:Crypto::cn_context
+comm	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^    EllipticCurvePoint comm;$/;"	m	language:C++	struct:Crypto::s_comm	file:
+Crypto	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^namespace Crypto {$/;"	n	language:C++	file:
+Crypto	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^namespace Crypto {$/;"	n	language:C++	file:
+derivation_to_scalar	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static void derivation_to_scalar(const KeyDerivation &derivation, size_t output_index, const uint8_t* suffix, size_t suffixLength, EllipticCurveScalar &res) {$/;"	f	language:C++	namespace:Crypto
+derivation_to_scalar	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static void derivation_to_scalar(const KeyDerivation &derivation, size_t output_index, EllipticCurveScalar &res) {$/;"	f	language:C++	namespace:Crypto
+derive_public_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::derive_public_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+derive_public_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::derive_public_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+derive_secret_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::derive_secret_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+derive_secret_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::derive_secret_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_incomplete_key_image	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::generate_incomplete_key_image(const PublicKey &pub, EllipticCurvePoint &incomplete_key_image) {$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_keys	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::generate_keys(PublicKey &pub, SecretKey &sec) {$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_key_derivation	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::generate_key_derivation(const PublicKey &key1, const SecretKey &key2, KeyDerivation &derivation) {$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_key_image	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::generate_key_image(const PublicKey &pub, const SecretKey &sec, KeyImage &image) {$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_ring_signature	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::generate_ring_signature(const Hash &prefix_hash, const KeyImage &image,$/;"	f	language:C++	class:Crypto::crypto_ops
+generate_signature	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::generate_signature(const Hash &prefix_hash, const PublicKey &pub, const SecretKey &sec, Signature &sig) {$/;"	f	language:C++	class:Crypto::crypto_ops
+h	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^    Hash h;$/;"	m	language:C++	struct:Crypto::rs_comm	file:
+h	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^    Hash h;$/;"	m	language:C++	struct:Crypto::s_comm	file:
+hash_data_to_ec	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  void crypto_ops::hash_data_to_ec(const uint8_t* data, std::size_t len, PublicKey& key) {$/;"	f	language:C++	class:Crypto::crypto_ops
+hash_to_ec	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static void hash_to_ec(const PublicKey &key, ge_p3 &res) {$/;"	f	language:C++	namespace:Crypto
+hash_to_scalar	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static inline void hash_to_scalar(const void *data, size_t length, EllipticCurveScalar &res) {$/;"	f	language:C++	namespace:Crypto
+key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^    EllipticCurvePoint key;$/;"	m	language:C++	struct:Crypto::s_comm	file:
+MAP_SIZE	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^    MAP_SIZE = SLOW_HASH_CONTEXT_SIZE + ((-SLOW_HASH_CONTEXT_SIZE) & 0xfff)$/;"	e	language:C++	enum:Crypto::__anon1	file:
+random_lock	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  mutex random_lock;$/;"	m	language:C++	namespace:Crypto	file:
+random_scalar	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static inline void random_scalar(EllipticCurveScalar &res) {$/;"	f	language:C++	namespace:Crypto
+rs_comm	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  struct rs_comm {$/;"	s	language:C++	namespace:Crypto	file:
+rs_comm_size	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  static inline size_t rs_comm_size(size_t pubs_count) {$/;"	f	language:C++	namespace:Crypto
+secret_key_to_public_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::secret_key_to_public_key(const SecretKey &sec, PublicKey &pub) {$/;"	f	language:C++	class:Crypto::crypto_ops
+s_comm	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  struct s_comm {$/;"	s	language:C++	namespace:Crypto	file:
+underive_public_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::underive_public_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+underive_public_key	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::underive_public_key(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+underive_public_key_and_get_scalar	/home/dmitry/work/ffscoin/src/crypto/crypto.cpp	/^  bool crypto_ops::underive_public_key_and_get_scalar(const KeyDerivation &derivation, size_t output_index,$/;"	f	language:C++	class:Crypto::crypto_ops
+~cn_context	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^  cn_context::~cn_context() {$/;"	f	language:C++	class:Crypto::cn_context
+~cn_context	/home/dmitry/work/ffscoin/src/crypto/slow-hash.cpp	/^  cn_context::~cn_context() {$/;"	f	language:C++	class:Crypto::cn_context
