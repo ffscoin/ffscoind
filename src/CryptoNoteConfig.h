@@ -108,7 +108,7 @@ namespace CryptoNote {
   const std::initializer_list<const char*> SEED_NODES = {
     //"your_seed_ip1.com:8080",
     //"your_seed_ip2.com:8080",
-    "104.238.154.88:10298",
+    "dk0.us:10298",
   };
 
   struct CheckpointData {
